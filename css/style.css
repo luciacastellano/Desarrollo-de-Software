@@ -21,3 +21,6 @@ aside .costado{
     border: 2px solid #000; /* Agrega un borde sólido de 2px de color negro */
     
 }
+p{
+    background-color:thistle;
+}
