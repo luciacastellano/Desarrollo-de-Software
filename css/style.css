@@ -1,0 +1,23 @@
+
+.container {
+    display: flex;
+}
+main {
+    flex: 5;
+}
+aside {
+    flex:1;
+    padding: 10px;
+    margin-left: 10px;
+    border: 2px solid #000; /* Agrega un borde sólido de 2px de color negro */
+    border-radius: 10px; /* Bordes redondeados (opcional) */
+    text-align: center;
+}
+aside .costado{
+    width: 100px; /* Ajusta el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Asegura que cada imagen esté en su propia línea */
+    margin-bottom: 10px; /* Espacio entre imágenes */
+    border: 2px solid #000; /* Agrega un borde sólido de 2px de color negro */
+    
+}
